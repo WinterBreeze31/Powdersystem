@@ -5,7 +5,8 @@
     //Functions
     function getPageName() {
        $newArr = explode("/", $_SERVER['REQUEST_URI']);
-       return $newArr[3];
+       $newArr[(count($newArr) - 1)] = str_replace(".php", "", $newArr[(count($newArr) - 1)]);
+       return $newArr[(count($newArr) - 1)];
     }
 
 

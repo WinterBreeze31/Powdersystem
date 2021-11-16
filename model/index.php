@@ -1,0 +1,14 @@
+<?php 
+/*  
+
+EXAMPLE MYSQL CONNECTION. FOR THIS EXAMPLE WE USE THE FALLOWING TABBLE FIELDS
+
+TABLENAME : tablet
+
+ID
+NAME
+IFRAME
+
+*/
+$dataQ = QueryGet("SELECT * FROM `tablet` ");
+?>

@@ -3,12 +3,18 @@
 <?php include_once('../model/index.php'); ?>
 
 <!DOCTYPE html>
+
 <html lang="en">
 
 <?php include_once("../core/head.php") ?>
-<?php include_once("../view/index.php") ?>
 
+<body>
 
+    <?php include_once("../view/index.php") ?>
+    <script src="../core/script/script.js"></script>
+    <script src="../core/script/bulma.js"></script>
+
+</body>
 
 </html>
 

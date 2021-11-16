@@ -1,0 +1,92 @@
+@import "./bulma/mysettings";
+
+$border-color: #181a20;
+$border-size: 3px;
+$button-border-radius: 4px;
+
+
+body,html{
+  height: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.border-right{
+  border-right: solid $border-size $border-color;
+}
+
+.border-bottom{
+  border-bottom: solid $border-size $border-color;
+}
+.border-top{
+  border-top: solid $border-size $border-color;
+}
+
+html .menu{
+  max-width: 100%;
+  height: fit-content;
+  @media (min-width: 770px){
+    max-width: 20%;
+    height: inherit;
+  }
+  &-label{
+    margin-left: 0.75rem;
+  }
+  &--button{
+    width: 100%;
+    margin-bottom: 6px;
+    border-radius: $button-border-radius;
+  }
+  &-list{
+    @media (min-width: 768px){
+      margin-left: 0.75rem;
+    }
+    
+  }
+
+  &--footer{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.column{
+  &--main{
+    padding-left: 0;
+
+    .page-title-holder,box{
+      margin-left: 0.75rem;
+    }
+    .page-title-holder{
+      font-size: 1.8rem;
+    }
+  }
+}
+.bulmaCalendarHolder{
+  margin-bottom: 0.75rem;
+}
+.content-holder{
+  margin-bottom: 0 !important;
+  @media(min-width: 768px){
+    min-height: 90vh;
+  }
+}
+
+.box{
+
+  &--controls{
+    
+    .button{
+      &:last-of-type{
+        float: right;
+      }
+    }
+  }
+}
+
+.done-btn{
+  right: 0;
+  position: absolute;
+  margin-right: 20px;
+}

@@ -1,1 +1,1 @@
-sass --watch ./core/style/scss:./core/style/css
+sass --watch ./app/core/style/scss:./app/core/style/css

@@ -1,1 +1,1 @@
-<?php include_once('../model/coreModel.php'); ?>
+<?php include_once('./model/coreModel.php'); ?>

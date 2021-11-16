@@ -2,6 +2,14 @@
 
 <?php include_once("../view/bits/header.php") ?>
 
+
+<main class="column column--main">
+    <button class="button mdl-btn" data-modal="modal1">open</button>
+</main>
+
+
+
+<!-- MODALS -->
 <div class="modal" id="modal1">
   <div class="modal-background"></div>
   <div class="modal-card">
@@ -17,4 +25,4 @@
     </footer>
   </div>
 </div>
-<button class="button mdl-btn" data-modal="modal1">open</button>
+

@@ -2,6 +2,7 @@
     //Settings
     const WEBSITENAME = "Document";
 
+
     //Functions
     function getPageName() {
     

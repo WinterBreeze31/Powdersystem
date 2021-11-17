@@ -21,7 +21,7 @@ services:
             MYSQL_ROOT_PASSWORD: mysql
             MYSQL_DATABASE: manege_db
             MYSQL_USER: mysqlUsr
-            MYSQL_PASSWORD: MYSQL_PASSWORD
+            MYSQL_PASSWORD: superSecurePassword
         ports:
           - "9906:3306"
 
